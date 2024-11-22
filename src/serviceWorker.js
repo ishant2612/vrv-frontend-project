@@ -1,0 +1,1 @@
+// Service worker registration code for caching static assets 
