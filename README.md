@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# RBAC Admin Panel
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Role-Based Access Control (RBAC) Admin Panel built with React.js and Firebase Authentication. This application provides a secure and user-friendly interface for managing users, roles, and permissions in an organization.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### Authentication
 
-### `npm start`
+- Email/Password login
+- Google Sign-in integration
+- Password reset functionality
+- Protected routes based on user roles
+- Persistent authentication state
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Role-Based Access Control
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Three user roles: Admin, Manager, and User
+- Dynamic permission management
+- Role-specific dashboards
+- Granular access control
 
-### `npm test`
+### User Management
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- View, create, edit, and delete users
+- Assign multiple roles to users
+- User status management (Active/Inactive)
+- Real-time user list updates
+- Search and filter functionality
+- Pagination for large datasets
 
-### `npm run build`
+### Role Management
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Create and modify roles
+- Assign permissions to roles
+- View role permissions
+- Delete roles with confirmation
+- Role-based navigation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Performance Optimizations
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Lazy loading of components
+- Data caching
+- Debounced search
+- Pagination
+- Local storage synchronization
+- Real-time updates
 
-### `npm run eject`
+### UI/UX Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Responsive design for all screen sizes
+- Dark/Light theme toggle
+- Mobile-friendly navigation
+- Loading states and error handling
+- Confirmation dialogs for critical actions
+- User-friendly forms with validation
+- Search and filter capabilities
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technology Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Frontend Framework**: React.js
+- **UI Library**: Material-UI (MUI)
+- **Authentication**: Firebase Auth
+- **State Management**: React Context
+- **Routing**: React Router
+- **Form Handling**: Native React forms with validation
+- **Data Storage**: Mock API with localStorage persistence
+- **Code Quality**: ESLint
