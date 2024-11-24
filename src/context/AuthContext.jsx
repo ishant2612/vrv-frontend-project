@@ -259,7 +259,7 @@ function AuthProvider({ children }) {
           username: userCredential.user.email,
           fullName: userCredential.user.displayName || email.split("@")[0],
           status: "active",
-          roles: ["user"], // Default role
+          roles: ["admin"], // Default role
         });
       }
 
@@ -284,7 +284,7 @@ function AuthProvider({ children }) {
           username: result.user.email,
           fullName: result.user.displayName || result.user.email.split("@")[0],
           status: "active",
-          roles: ["user"], // Default role
+          roles: ["admin"], // Default role
         });
       }
 
@@ -316,7 +316,7 @@ function AuthProvider({ children }) {
         username: email,
         fullName,
         status: "active",
-        roles: ["user"], // Default role
+        roles: ["admin"], // Default role
       });
 
       setUserRoles(["admin"]); // Set default role for new users
