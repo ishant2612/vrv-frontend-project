@@ -43,7 +43,7 @@ const SignUp = () => {
       setError("");
       setLoading(true);
       await signup(formData.email, formData.password, formData.fullName);
-      navigate("/users");
+      navigate("/login");
     } catch (err) {
       setError(err.message || "Failed to create account");
     } finally {
@@ -56,7 +56,7 @@ const SignUp = () => {
       setError("");
       setLoading(true);
       await loginWithGoogle();
-      navigate("/users");
+      navigate("/login");
     } catch (err) {
       setError(
         err.message === "Insufficient permissions"
