@@ -2,6 +2,11 @@
 
 A Role-Based Access Control (RBAC) Admin Panel built with React.js and Firebase Authentication. This application provides a secure and user-friendly interface for managing users, roles, and permissions in an organization.
 
+(To Access Admin Panel:
+  emailid : testing@gmail.com
+  password: abcd1234
+)
+
 ## Features
 
 ### Authentication
