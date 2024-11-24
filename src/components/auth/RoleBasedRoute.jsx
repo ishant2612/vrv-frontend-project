@@ -7,7 +7,7 @@ import UserDashboard from "../dashboard/UserDashboard";
 
 const RoleBasedRoute = () => {
   const { userRoles } = useAuth();
-
+  console.log(userRoles);
   if (userRoles.includes("admin")) {
     return <AdminDashboard />;
   }

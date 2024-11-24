@@ -47,7 +47,9 @@ const Header = ({ onMenuClick }) => {
       .toUpperCase()
       .slice(0, 2);
   };
-
+  console.log("====================================");
+  console.log(currentUser);
+  console.log("====================================");
   const handleMenuOpen = (event) => {
     setAnchorEl(event.currentTarget);
   };

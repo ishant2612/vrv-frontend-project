@@ -1,18 +1,18 @@
 export const users = [
-    {
-        id: 1,
-        username: 'admin',
-        email: 'vishant@gmail.com',
-        status: 'active',
-        roles: ['admin'],
-    },
-    {
-        id: 2,
-        username: 'user1',
-        email: 'ivleague51@gmail.com',
-        status: 'active',
-        roles: ['user'],
-    },
+    // {
+    //     id: 1,
+    //     username: 'admin',
+    //     email: 'vishant@gmail.com',
+    //     status: 'active',
+    //     roles: ['admin'],
+    // },
+    // {
+    //     id: 2,
+    //     username: 'user1',
+    //     email: 'ivleague51@gmail.com',
+    //     status: 'active',
+    //     roles: ['user'],
+    // },
 ];
 
 export const roles = [

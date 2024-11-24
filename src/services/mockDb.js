@@ -22,28 +22,7 @@ const db = {
             createdAt: '2024-01-02T00:00:00.000Z',
             lastLogin: '2024-03-13T15:45:00.000Z',
         },
-        {
-            id: 3,
-            username: 'user1',
-            email: 'user1@example.com',
-            fullName: 'Regular User',
-            status: 'active',
-            roles: ['user'],
-            avatar: null,
-            createdAt: '2024-01-03T00:00:00.000Z',
-            lastLogin: '2024-03-12T09:15:00.000Z',
-        },
-        {
-            id: 4,
-            username: 'test@example.com',
-            email: 'test@example.com',
-            fullName: 'Test Admin',
-            status: 'active',
-            roles: ['admin'],
-            avatar: null,
-            createdAt: '2024-01-04T00:00:00.000Z',
-            lastLogin: null,
-        },
+
     ],
 
     roles: [

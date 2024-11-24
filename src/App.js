@@ -26,6 +26,7 @@ function App() {
     setMobileOpen(!mobileOpen);
   };
 
+
   const AdminLayout = ({ children }) => (
     <Box sx={{ display: 'flex' }}>
       <Header onMenuClick={handleDrawerToggle} />
@@ -55,6 +56,7 @@ function App() {
         <CssBaseline />
         <Router>
           <Suspense fallback={<CircularProgress />}>
+
             <Routes>
               <Route path="/login" element={<Login />} />
               <Route path="/signup" element={<SignUp />} />

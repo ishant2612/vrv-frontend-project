@@ -65,3 +65,7 @@ A Role-Based Access Control (RBAC) Admin Panel built with React.js and Firebase 
 - **Form Handling**: Native React forms with validation
 - **Data Storage**: Mock API with localStorage persistence
 - **Code Quality**: ESLint
+
+## Project Structure
+
+</file>
