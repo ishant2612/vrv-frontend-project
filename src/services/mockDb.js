@@ -1,27 +1,6 @@
 const db = {
     users: [
-        {
-            id: 1,
-            username: 'admin',
-            email: 'vishant448@gmail.com',
-            fullName: 'Admin User',
-            status: 'active',
-            roles: ['admin'],
-            avatar: null,
-            createdAt: '2024-01-01T00:00:00.000Z',
-            lastLogin: '2024-03-14T10:30:00.000Z',
-        },
-        {
-            id: 2,
-            username: 'manager',
-            email: 'manager@example.com',
-            fullName: 'John Manager',
-            status: 'active',
-            roles: ['manager'],
-            avatar: null,
-            createdAt: '2024-01-02T00:00:00.000Z',
-            lastLogin: '2024-03-13T15:45:00.000Z',
-        },
+
 
     ],
 
